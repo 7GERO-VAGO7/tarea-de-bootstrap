@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario con Bootstrap (Archivos Locales)</title>
+  <!-- Bootstrap CSS Local -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+   <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+      </div>
+      <div class="mb-3">
+        <label for="fecha" class="form-label">fecha nacimeinto</label>
+        <input type="time" class="form-control" id="fecha" placeholder="Fecha de nacimientos">
+      </div>
+      <div class="mb-3">
+        <label for="codigo" class="form-label">codigo</label>
+        <input type="number" class="form-control" id="codigo" placeholder="codigo estudiante">
+      </div>
+       <div class="mb-3">
+        <label for="cedula" class="form-label">cedula</label>
+        <input type="number" class="form-control" id="cedula" placeholder="cedula estudiante">
+      </div>
+      <button type="submit" class="btn btn-primary">enviar</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS y Popper.js Local -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
